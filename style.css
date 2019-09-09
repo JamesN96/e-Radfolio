@@ -89,17 +89,17 @@ nav {
 }
 
 #contact-head {
-    top: 20px;
-}
-
-.contact-details {
     top: 50px;
 }
 
+.contact-details {
+    top: 70px;
+}
+
 #quick-heading {
-    top: 110px;
+    top: 170px;
 }
 
 .quick-links {
-    top: 130px;
+    top: 190px;
 }
