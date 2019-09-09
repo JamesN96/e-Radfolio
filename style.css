@@ -31,11 +31,11 @@ nav {
 }
 
 .nav-item.active {
-    border-left: 1px solid black;
+    border-left: 1px solid white;
 }
 
 #graduate {
-    border-right: 1px solid black;
+    border-right: 1px solid white;
 }
 
 /* ABOUT SECTION */
