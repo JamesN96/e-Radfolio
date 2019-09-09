@@ -1,5 +1,6 @@
 body, html {
     height: 100%;
+    /* border: 1px solid red; */
 }
 
 /* MAIN */
@@ -10,14 +11,14 @@ body, html {
     height: 50%;
     width: 100%;
     position: relative;
-    bottom: 220px;
 }
 
 h1 {
     background: white;
     text-align: center;
+    margin: 0 auto;
     position: relative;
-    margin: 220px auto;
+    top: 200px;
     width: 20%;
 }
 
@@ -26,12 +27,15 @@ nav, .nav-item.active {
 }
 
 nav {
-    bottom: 55px;
+    border: 1px solid black;
+    top: 385px;
 }
 
 .nav-item.active {
-    padding-right: 370px;
-    left: 210px;
+    /* padding-right: 360px; */
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    /* left: 210px; */
 }
 
 /* ABOUT SECTION */
@@ -47,7 +51,7 @@ nav {
     float: left;
     height: 100%;
     overflow: hidden;
-    width: 49%;
+    width: 50%;
 }
 
 #about-head {
