@@ -55,13 +55,13 @@ nav {
 #about-head {
     text-align: center;
     position: relative;
-    top: 20px
+    top: 50px
 }
 
 #about-content {
     padding: 0 30px;
     position: relative;
-    top: 50px;
+    top: 70px;
 }
 
 #profile {
@@ -70,7 +70,7 @@ nav {
     height: 250px;
     margin: 0 auto;
     position: relative;
-    top: 80px;
+    top: 90px;
 }
 
 #right-about {
