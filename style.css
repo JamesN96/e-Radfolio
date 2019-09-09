@@ -25,8 +25,17 @@ h1 {
 /* ABOUT SECTION */
 
 #about {
-    height: 100%;
+    border: 1px solid green;
+    height: 50%;
     width: 100%;
+}
+
+#left-about{
+    border: 1px solid blue;
+    float: left;
+    height: 100%;
+    overflow: hidden;
+    width: 49%;
 }
 
 #about-head {
@@ -41,18 +50,19 @@ h1 {
     top: 50px;
 }
 
-#left-about{
-    border: 1px solid blue;
-    float: left;
-    height: 50%;
-    overflow: hidden;
-    width: 49%;
+#profile {
+    border-radius: 50%;
+    display: block;
+    height: 250px;
+    margin: 0 auto;
+    position: relative;
+    top: 80px;
 }
 
 #right-about {
     border: 1px solid orange;
     float: left;
-    height: 50%;
+    height: 100%;
     overflow: hidden;
     width: 50%;
 }
