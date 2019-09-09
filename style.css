@@ -1,7 +1,5 @@
 body, html {
     height: 100%;
-    width: 100%;   
-    margin-left: 0px; 
 }
 
 /* MAIN */
@@ -9,9 +7,10 @@ body, html {
     background-image: url("owen-beard-DK8jXx1B-1c-unsplash.jpg");
     background-size: 1000px 1000px;
     background-position: -200px -400px;
-    border: 1px solid red;
     height: 50%;
     width: 100%;
+    position: relative;
+    bottom: 220px;
 }
 
 h1 {
@@ -38,13 +37,13 @@ nav {
 /* ABOUT SECTION */
 
 #about {
-    border: 1px solid green;
+    /* border: 1px solid green; */
     height: 50%;
     width: 100%;
 }
 
 #left-about{
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     float: left;
     height: 100%;
     overflow: hidden;
@@ -73,7 +72,7 @@ nav {
 }
 
 #right-about {
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
     float: left;
     height: 100%;
     overflow: hidden;
