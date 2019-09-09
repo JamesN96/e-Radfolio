@@ -6,14 +6,20 @@ body, html {
 
 /* MAIN */
 #main{
+    background-image: url("owen-beard-DK8jXx1B-1c-unsplash.jpg");
+    background-size: 1000px 1000px;
+    background-position: -200px -400px;
     border: 1px solid red;
     height: 50%;
+    width: 100%;
 }
 
 h1 {
+    background: white;
     text-align: center;
     position: relative;
-    margin: 220px 0;
+    margin: 220px auto;
+    width: 20%;
 }
 
 /* ABOUT SECTION */
