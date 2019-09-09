@@ -1,0 +1,73 @@
+body, html {
+    height: 100%;
+    width: 100%;   
+    margin-left: 0px; 
+}
+
+/* MAIN */
+#main{
+    border: 1px solid red;
+    height: 50%;
+}
+
+h1 {
+    text-align: center;
+    position: relative;
+    margin: 220px 0;
+}
+
+/* ABOUT SECTION */
+
+#about {
+    height: 100%;
+    width: 100%;
+}
+
+#about-head {
+    text-align: center;
+    position: relative;
+    top: 20px
+}
+
+#about-content {
+    padding: 0 30px;
+    position: relative;
+    top: 50px;
+}
+
+#left-about{
+    border: 1px solid blue;
+    float: left;
+    height: 50%;
+    overflow: hidden;
+    width: 49%;
+}
+
+#right-about {
+    border: 1px solid orange;
+    float: left;
+    height: 50%;
+    overflow: hidden;
+    width: 50%;
+}
+
+#contact-head, .contact-details, #quick-heading, .quick-links {
+    text-align: center;
+    position: relative;
+}
+
+#contact-head {
+    top: 20px;
+}
+
+.contact-details {
+    top: 50px;
+}
+
+#quick-heading {
+    top: 110px;
+}
+
+.quick-links {
+    top: 130px;
+}
